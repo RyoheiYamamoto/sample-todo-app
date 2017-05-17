@@ -7,7 +7,11 @@ import { AppComponent } from './app.component';
 import { TaskComponent } from './task/task.component';
 import { TaskService } from './task.service';
 
-import { MdSidenavModule } from '@angular/material';
+import {
+  MdSidenavModule, MdToolbarModule, MdListModule, MdButtonModule, MdInputModule,
+  MdCardModule
+} from '@angular/material';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -18,7 +22,13 @@ import { MdSidenavModule } from '@angular/material';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MdSidenavModule
+    MdSidenavModule,
+    MdListModule,
+    MdToolbarModule,
+    MdButtonModule,
+    BrowserAnimationsModule,
+    MdInputModule,
+    MdCardModule
   ],
   providers: [TaskService],
   bootstrap: [AppComponent]

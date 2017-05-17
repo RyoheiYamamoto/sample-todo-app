@@ -1,0 +1,17 @@
+.tasks-wrapper {
+  margin: 40px;
+}
+.task-input-container {
+  width: 40vw;
+}
+.task-input {
+  padding: 30px;
+}
+.task-list-item {
+  display: block;
+  margin-bottom: 30px;
+  height: 100%;
+}
+.task-card {
+  width: 40vw;
+}
